@@ -8,4 +8,15 @@
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <platform name="android">
+        <allow-intent href="market:*"/>
+        <icon src="res/android/icon.png"/>
+        <splash src="res/android/splash.png"/>
+    </platform>
+    <platform name="browser">
+        <allow-intent href="about:*"/>
+        <allow-intent href="mailto:*"/>
+        <icon src="res/browser/icon.png"/>
+        <splash src="res/browser/splash.png"/>
+    </platform>
 </widget>
